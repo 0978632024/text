@@ -26,7 +26,7 @@
     });
     </script>
     <script>
-      function show()
+      function show1()
       {
         a1.style.backgroundColor = d1.value
         document.getElementById("d1").style.backgroundColor = d1.value
@@ -36,6 +36,10 @@
         document.getElementById("d1").style.backgroundColor = d1.value
         a4.style.backgroundColor = d1.value
         document.getElementById("d1").style.backgroundColor = d1.value
+
+      }
+      function show2()
+      {
         b1.style.backgroundColor = d2.value
         document.getElementById("d2").style.backgroundColor = d2.value
         b2.style.backgroundColor = d2.value
@@ -78,10 +82,10 @@
           <h1 class="s3">調色盤顏色，設定表格條狀紋理</h1>
           <hr>
           <p class="s4">顏色1：
-            <input id="d1" type="color" onchange="show()">
+            <input id="d1" type="color" onchange="show1()">
             </p>
           <p class="s4">顏色2：
-            <input id="d2" type="color" onchange="show()">
+            <input id="d2" type="color" onchange="show2()">
             </p>
 
 
